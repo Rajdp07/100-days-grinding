@@ -1,0 +1,21 @@
+package ExceptionHandling.Practice;
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	int [] nums = new int[10];
+    	try {
+    		System.out.println( "Hello World i am in try block now" );
+    		 nums[20]=56;
+    		//System.out.println(10/0);
+    	}
+        catch (Exception e){
+        	System.out.println( "Hello World i am in catch block now" );
+        	
+        }
+    	finally {
+    		
+    		System.out.println( "Hello World i am in finally block now" );
+    	}
+    }
+}

@@ -1,0 +1,24 @@
+package Serialization.Serial;
+import java.io.*;
+ class App implements Serializable
+{
+	String firstName="Rajdeep";
+	String SecondName="Majumder";
+}
+	class SerializationDemo{
+    public static void main( String[] args )throws Exception
+    {
+    	App a = new App();
+    	FileOutputStream fos = new FileOutputStream("file.ser");
+    	@SuppressWarnings("resource")
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+    	oos.writeObject(a);
+    	
+    	FileInputStream fis = new FileInputStream("file.ser");
+    	ObjectInputStream ois = new ObjectInputStream(fis);
+    	App a1 = (App)ois.readObject();
+    	System.out.println(a1.firstName  +  a1.SecondName);
+    	
+        
+    }
+}

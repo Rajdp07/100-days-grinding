@@ -1,0 +1,28 @@
+package Piglatin.Translator;
+import java.util.*;
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	 Scanner sc=new Scanner(System.in);
+         System.out.println("Enter the word to be converted.");
+         String word=sc.next();
+         String piglatin="";
+         int flag=0;
+         for(int i=0;i<word.length();i++)
+         {
+             char x=word.charAt(i);
+             if(x=='A' || x=='E' || x=='I' || x=='O' ||x=='U'|| x=='a'|| x=='e'|| x=='i'||x=='o'||x=='u')
+             {
+                 piglatin=word.substring(i)+word.substring(0,i)+"ay";
+                 flag=1;
+                 break;
+             }
+         }
+         if(flag==0)
+         {
+             piglatin=word+"ay";
+         }
+         System.out.println(word+" in Piglatin format is "+piglatin);
+    }
+}

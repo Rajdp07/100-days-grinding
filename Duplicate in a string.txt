@@ -1,0 +1,24 @@
+package Dups.FindDuplicate;
+import java.io.*;
+public class App 
+{
+    public static void main( String[] args )throws IOException
+    {
+    	BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+    	//String str;
+        System.out.println( "Enter the string" );
+       String str=in.readLine();
+       int n=str.length();
+       char chr[]=str.toCharArray();
+       for(int i=0;i<n;i++) {
+    	   //char ch=str.charAt(i);
+    	   for(int j=i+1;j<n;j++) {
+    		   if(chr[i]==chr[j]) {
+    			   System.out.print(chr[j] + " ");
+    			   break;
+    		   }
+    	   }
+    	   
+       }
+    }
+}

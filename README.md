@@ -4,3 +4,4 @@
 #Topic(Day3-tilldate)- Practising JAVA String Programs
 --(Day4)--------Piglatin conversion of String
 --(Day5)--------Duplicates in a String
+--(Day6)--------GoldMan Sachs Prev year question

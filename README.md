@@ -5,3 +5,4 @@
 --(Day4)--------Piglatin conversion of String
 --(Day5)--------Duplicates in a String
 --(Day6)--------GoldMan Sachs Prev year question
+#(Day7)---------Add Digits

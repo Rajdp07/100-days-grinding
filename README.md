@@ -6,3 +6,4 @@
 --(Day5)--------Duplicates in a String
 --(Day6)--------GoldMan Sachs Prev year question
 #(Day7)---------Add Digits
+#(Day8)---------Rotate Arrays[link to question](https://leetcode.com/problems/rotate-array/submissions/)

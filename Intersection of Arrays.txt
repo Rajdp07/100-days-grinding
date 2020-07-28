@@ -1,0 +1,40 @@
+Given two arrays, write a function to compute their intersection.
+
+Example 1:
+
+Input: nums1 = [1,2,2,1], nums2 = [2,2]
+Output: [2,2]
+Example 2:
+
+Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+Output: [4,9]
+
+SOLUTION:-
+
+class Solution {
+    public int[] intersect(int[] nums1, int[] nums2) {
+         HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
+        List<Integer> result = new ArrayList<Integer>();
+        
+        for(int x: nums1) {
+            map.put(x, map.getOrDefault(x, 0)+1);
+        }
+        
+        for(int y: nums2) {
+            if(map.containsKey(y) && map.get(y) > 0) {
+                result.add(y);
+                map.put(y, map.get(y) -1);
+            }
+        }
+        
+        //System.out.println(result);
+        int index=0;
+        int[] resultArr = new int[result.size()];
+        for(int z:result) {
+            resultArr[index++] = z;
+        }
+        return resultArr;
+        
+        
+    }
+}

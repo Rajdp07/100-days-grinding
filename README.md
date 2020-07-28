@@ -7,3 +7,4 @@
 --(Day6)--------GoldMan Sachs Prev year question
 #(Day7)---------Add Digits [Link to the question](https://leetcode.com/problems/add-digits/)
 #(Day8)---------Rotate Arrays[link to question](https://leetcode.com/problems/rotate-array/submissions/)
+#(Day9)---------Intersection of Arrays [link to question](https://leetcode.com/problems/intersection-of-two-arrays-ii/)

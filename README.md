@@ -9,3 +9,4 @@
 #(Day8)---------Rotate Arrays[link to question](https://leetcode.com/problems/rotate-array/submissions/)
 #(Day9)---------Intersection of Arrays [link to question](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 #(Day10)--------3SUM [Link to the question](https://leetcode.com/problems/3sum/)
+#(Day11)--------Optimised the duplicate string program and solved 2Sum program....

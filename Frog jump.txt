@@ -1,0 +1,25 @@
+ public boolean canCross(int[] a) {
+     
+        int n=a.length;
+		
+        if(n<=1) return true;
+		// linkedlist to store the previous jumps to reach at ith jump
+       LinkedList<Integer>[] al=new LinkedList[n];
+      
+	  for(int i=0;i<n;i++){
+            al[i]=new LinkedList<Integer>();
+        }
+     // 0 jump before first stone
+	 al[0].add(0);
+        for(int i=1;i<n;i++){
+            for(int j=0;j<i;j++){
+                LinkedList<Integer> l=al[j];
+                // number of jumps required to reach ith stone from jth stone
+                int jump=a[i]-a[j];
+				// we can reach at ith stone if jth stone contains jump, jump+1 or jump-1
+            if(l.contains(jump)||l.contains(jump+1)||l.contains(jump-1)) al[i].add(jump);
+       }
+     }
+	   // return true if we can reach at last stone
+        return al[n-1].size()!=0;
+        }

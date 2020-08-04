@@ -14,3 +14,4 @@
 #(Day13)--------Solved AMAZONS most asked Question---Symmetric Binary Trees--[Link to problem](https://leetcode.com/problems/symmetric-tree/)
 #(Day14)--------Solved SAME TREE Problem [link to the question](https://leetcode.com/problems/same-tree/)
 #(Day15)--------Solved Frog Jump problem from leetcode
+#(Day16)--------Solved Number of Islands Problem [Link of the problem](https://leetcode.com/problems/number-of-islands/)

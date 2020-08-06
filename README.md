@@ -15,3 +15,5 @@
 #(Day14)--------Solved SAME TREE Problem [link to the question](https://leetcode.com/problems/same-tree/)
 #(Day15)--------Solved Frog Jump problem from leetcode
 #(Day16)--------Solved Number of Islands Problem [Link of the problem](https://leetcode.com/problems/number-of-islands/)
+#(Day17)--------practised BST
+#(Day18)--------Solved Amazons Unique Paths [Link to the problem](https://leetcode.com/problems/unique-paths/)

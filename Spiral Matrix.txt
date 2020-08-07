@@ -1,0 +1,59 @@
+Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+
+Example 1:
+
+Input:
+[
+ [ 1, 2, 3 ],
+ [ 4, 5, 6 ],
+ [ 7, 8, 9 ]
+]
+Output: [1,2,3,6,9,8,7,4,5]
+Example 2:
+
+Input:
+[
+  [1, 2, 3, 4],
+  [5, 6, 7, 8],
+  [9,10,11,12]
+]
+Output: [1,2,3,4,8,12,11,10,9,5,6,7]
+
+
+SOLUTION------0ms
+
+class Solution {
+    public List<Integer> spiralOrder(int[][] matrix) {
+        List<Integer> result = new ArrayList();
+        if(matrix==null || matrix.length==0){
+            return result;
+        }
+        int rowBegan=0;
+        int rowEnd=matrix.length-1;
+        int columnBegan=0;
+        int columnEnd=matrix[0].length-1;
+        while(rowBegan<=rowEnd && columnBegan<=columnEnd){
+            for(int i=columnBegan;i<=columnEnd;i++){
+                result.add(matrix[rowBegan][i]);
+            }
+            rowBegan++;
+            for(int i=rowBegan;i<=rowEnd;i++){
+                result.add(matrix[i][columnEnd]);
+            }
+            columnEnd--;
+            if(rowBegan<=rowEnd){
+                for(int i=columnEnd;i>=columnBegan;i--){
+                    result.add(matrix[rowEnd][i]);
+                }
+            }
+            rowEnd--;
+            if(columnBegan<=columnEnd){
+            for(int i=rowEnd;i>=rowBegan;i--){
+                result.add(matrix[i][columnBegan]);
+            }
+        }
+            columnBegan++;
+        }
+        return result;
+    }
+}

@@ -17,3 +17,4 @@
 #(Day16)--------Solved Number of Islands Problem [Link of the problem](https://leetcode.com/problems/number-of-islands/)
 #(Day17)--------practised BST
 #(Day18)--------Solved Amazons Unique Paths [Link to the problem](https://leetcode.com/problems/unique-paths/)
+#(Day19)--------Solved Spiral Matrix Problem. [LInk to the problem](https://leetcode.com/problems/spiral-matrix/)

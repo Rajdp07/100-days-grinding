@@ -18,3 +18,4 @@
 #(Day17)--------practised BST
 #(Day18)--------Solved Amazons Unique Paths [Link to the problem](https://leetcode.com/problems/unique-paths/)
 #(Day19)--------Solved Spiral Matrix Problem. [LInk to the problem](https://leetcode.com/problems/spiral-matrix/)
+#(Day20)--------Solved Word Search Problem. [Link to the question](https://leetcode.com/problems/word-search/)

@@ -19,5 +19,7 @@
 #(Day18)--------Solved Amazons Unique Paths [Link to the problem](https://leetcode.com/problems/unique-paths/)
 #(Day19)--------Solved Spiral Matrix Problem. [LInk to the problem](https://leetcode.com/problems/spiral-matrix/)
 #(Day20)--------Solved Word Search Problem. [Link to the question](https://leetcode.com/problems/word-search/)
-#(Day21)--------Solved Reorganize word problem. [Link to the question](https://leetcode.com/problems/reorganize-string/submissions/)
-#(Day22)--------Solved Binary Tree Paths problem. [Link to the question](https://leetcode.com/problems/binary-tree-paths/submissions/)
+#(Day21)--------Solved Reorganize word problem. [Link to the question](https://leetcode.com/problems/reorganize-string/)
+#(Day22)--------Solved Binary Tree Paths problem. [Link to the question](https://leetcode.com/problems/binary-tree-paths/)
+----Continued---Solved Robot Return to origin.  [Link to question](https://leetcode.com/problems/robot-return-to-origin/)
+

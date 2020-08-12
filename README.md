@@ -23,5 +23,5 @@
 #(Day22)--------Solved Binary Tree Paths problem. [Link to the question](https://leetcode.com/problems/binary-tree-paths/)
 ----Continued---Solved Robot Return to origin.  [Link to question](https://leetcode.com/problems/robot-return-to-origin/)
 #(Day23)--------Solved container with most water problem. [Linkk to the problem](https://leetcode.com/problems/container-with-most-water/)
-#(Day24)--------Soved Find Peak Element in an array. [Link to problem](https://leetcode.com/problems/find-peak-element/) 
+#(Day24)--------Solved Find Peak Element in an array. [Link to problem](https://leetcode.com/problems/find-peak-element/) 
 

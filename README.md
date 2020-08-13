@@ -25,4 +25,5 @@
 #(Day23)--------Solved container with most water problem. [Linkk to the problem](https://leetcode.com/problems/container-with-most-water/)
 #(Day24)--------Solved Find Peak Element in an array. [Link to problem](https://leetcode.com/problems/find-peak-element/) 
 #(Day25)--------Solved Hamming Distance. [Link to problem](https://leetcode.com/problems/hamming-distance/)
+----Continued---Solved Trapping Rain Water Problem. [Link to the question](https://leetcode.com/problems/trapping-rain-water/)
 

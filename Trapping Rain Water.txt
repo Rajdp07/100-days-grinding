@@ -1,0 +1,28 @@
+ class Solution {
+    public int trap(int[] height) {
+        int arrSize = height.length;
+        if(height==null || arrSize==0){
+            return 0;
+        }
+        int level = 0;  
+        int startIndex = 0;     
+        int endIndex = arrSize-1; 
+        int result =0;
+        
+        while(startIndex < endIndex){
+            int lower = 0, pos = 0; 
+            if(height[startIndex] < height[endIndex]){
+                pos = startIndex++;
+            }
+            else{
+                pos = endIndex--;
+            }
+            lower = height[pos];
+            
+            level = Math.max(lower, level);
+            result += level - lower;
+        }
+        return result; 
+    }
+        
+    }

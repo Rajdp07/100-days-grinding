@@ -1,0 +1,54 @@
+#include <bits/stdc++.h>
+using namespace std;
+                     
+#define int long long
+#define endl            
+
+
+
+int get(int n)
+{
+    for(int i=2;i*i<=n;i++)
+    {
+        if(n%i==0)return n/i;
+    }
+    return 1;
+}
+
+
+
+void sol()
+{   
+    int c,d;
+    cin>>c>>d;
+    if(c<d)swap(c,d);
+    if(c==d){cout<<0;return;}
+    map<int,int> m;
+    
+    int counts=0;
+    while(c!=1)
+    {
+        counts++;
+        c=get(c);
+        m[c]=counts;
+    }
+    
+    counts=0;
+    while(!m.count(d))
+    {
+        counts++;
+        d=get(d);
+    }
+    cout<<counts+m[d];
+}
+
+
+
+
+
+int32_t main()
+{   
+    ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+    sol();
+    return 0;
+}

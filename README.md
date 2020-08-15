@@ -27,4 +27,5 @@
 #(Day25)--------Solved Hamming Distance. [Link to problem](https://leetcode.com/problems/hamming-distance/)
 ----Continued---Solved Trapping Rain Water Problem. [Link to the question](https://leetcode.com/problems/trapping-rain-water/)
 #(Day26)--------Solved Add Binary Problem. [Link to the question](https://leetcode.com/problems/add-binary/)
+#(Day27)--------TCS codevita problem b
 

@@ -29,4 +29,5 @@
 #(Day26)--------Solved Add Binary Problem. [Link to the question](https://leetcode.com/problems/add-binary/)
 #(Day27)--------TCS codevita problem b
 #(Day28)--------Solved String to Integer Conversion problem. [link to question](https://leetcode.com/problems/string-to-integer-atoi/)
+#(Day29)--------Solved Median of two sorted arrays. [link to the problem](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 

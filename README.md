@@ -30,4 +30,5 @@
 #(Day27)--------TCS codevita problem b
 #(Day28)--------Solved String to Integer Conversion problem. [link to question](https://leetcode.com/problems/string-to-integer-atoi/)
 #(Day29)--------Solved Median of two sorted arrays. [link to the problem](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+#(Day30)--------Solved Binary Tree Zigzag Order Traversal. [Link to the question](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 

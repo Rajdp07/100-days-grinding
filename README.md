@@ -33,4 +33,5 @@
 #(Day30)--------Solved Binary Tree Zigzag Order Traversal. [Link to the question](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 #(Day31)--------Solved Rotate Image Problem. [Link to question](https://leetcode.com/problems/rotate-image/)
 #(Day32)--------Practiced the Multithreading in Java with performing a simple program.
+#(Day33)--------Practiced average of all contiguous subarrays of size ‘K’ problem.
 

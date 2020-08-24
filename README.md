@@ -36,4 +36,5 @@
 #(Day33)--------Practiced average of all contiguous subarrays of size ‘K’ problem.
 #(Day34)--------Practiced Maximum Subarray Sum equal to k size.
 #(Day35)--------Practised Maximum Substring with distinct letters equal to k
+#(Day36)--------Practised Maximum length of substring with distinct letters.
 

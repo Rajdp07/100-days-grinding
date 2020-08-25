@@ -37,4 +37,5 @@
 #(Day34)--------Practiced Maximum Subarray Sum equal to k size.
 #(Day35)--------Practised Maximum Substring with distinct letters equal to k
 #(Day36)--------Practised Maximum length of substring with distinct letters.
+#(Day37)--------Practised Maximum Length of 1's after k no of replacements.
 

@@ -41,4 +41,5 @@
 #(Day38)--------Practiced Permutations in a String.
 #(Day39)--------Practicing still
 #(Day40)--------Solved Reverse Integer Problem on Leetcode
+#(Day41)--------Solved Next Permutations on Leetcode
 

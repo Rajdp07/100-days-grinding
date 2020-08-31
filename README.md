@@ -42,4 +42,5 @@
 #(Day39)--------Practicing still
 #(Day40)--------Solved Reverse Integer Problem on Leetcode
 #(Day41)--------Solved Next Permutations on Leetcode
+#(Day42)--------Solved Find Anaagrams problem
 

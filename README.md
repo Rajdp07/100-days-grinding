@@ -43,4 +43,5 @@
 #(Day40)--------Solved Reverse Integer Problem on Leetcode
 #(Day41)--------Solved Next Permutations on Leetcode
 #(Day42)--------Solved Find Anaagrams problem
+#(Day43)--------Solved Remove Duplicates in a array and return length
 

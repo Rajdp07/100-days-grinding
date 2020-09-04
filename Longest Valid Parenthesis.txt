@@ -1,0 +1,17 @@
+class Solution {
+    public int longestValidParentheses(String s) {
+       Stack<Integer> stack = new Stack<Integer>(); stack.push(-1);
+        int len=0;
+        
+        for(int i=0; i<s.length(); i++){
+            if(Character.toString(s.charAt(i)).equals("(")) stack.push(i);
+            else if(stack.size()>1 && Character.toString(s.charAt(stack.peek())).equals("(")){
+                stack.pop();
+                len = Math.max(len, i-stack.peek());
+            }else stack.push(i);
+        }
+        
+        return len;
+        
+    }
+}

@@ -1,0 +1,44 @@
+class Solution {
+    public List<String> result;
+    
+    public StringBuilder sb;
+    
+    public static Map<String, String> map = new HashMap<>();
+    
+    static {
+        map.put("2", "abc");
+        map.put("3", "def");
+        map.put("4", "ghi");
+        map.put("5", "jkl");
+        map.put("6", "mno");
+        map.put("7", "pqrs");
+        map.put("8", "tuv");
+        map.put("9", "wxyz");
+    }
+
+    
+    public List<String> letterCombinations(String digits) {
+        // initialization
+        sb = new StringBuilder();
+        result = new ArrayList<>();
+        // test if it is empty
+        if (digits.length() > 0) {
+            constructLetterString(digits);
+        }
+        return result;
+    }
+    
+    public void constructLetterString(String digits) {
+        if (digits.length() == 0) {
+            result.add(sb.toString());
+        }
+        else {
+            String curLetterSet = map.get(digits.substring(0,1));
+            for (int j = 0; j < curLetterSet.length(); j++) {
+                sb.append(curLetterSet.substring(j,j+1));
+                constructLetterString(digits.substring(1));
+                sb.deleteCharAt(sb.length() - 1);
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+class Solution {
+   public List<List<Integer>> fourSum(int[] nums, int target) {
+        int n=nums.length;
+        Arrays.sort(nums);
+        
+        List<List<Integer>> main_list = new ArrayList<List<Integer>>();
+        Set<List<Integer>> set = new HashSet<>(); //using set to avoid duplicates
+        
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                int sum=nums[i]+nums[j];
+                
+                int low=j+1;
+                int high=n-1;
+                
+				//2 pointer technique
+                while(low<high){
+                    if(sum+nums[low]+nums[high] == target){
+                        List<Integer> list = new ArrayList<Integer>();
+                        list.add(nums[i]);
+                        list.add(nums[j]);
+                        list.add(nums[low]);
+                        list.add(nums[high]);
+                        
+                        set.add(list); //adding the above list to the set
+						//if the list already existes in the set, it will be replaced
+						
+                        low++;
+                        high--;
+                    }else if(sum+nums[low]+nums[high] < target){
+                        low++;
+                    }else{
+                        high--;
+                    }
+                }
+            }
+        }
+        
+        //copying the elements of set to tha main_list
+        for(List<Integer> temp:set){
+            main_list.add(temp);
+        }
+        
+        return main_list;
+    
+        
+    }
+}

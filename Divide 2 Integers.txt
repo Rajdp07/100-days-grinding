@@ -1,0 +1,35 @@
+class Solution {
+	public int divide(int dividend, int divisor) {
+		boolean sign = ((dividend>0)&&(divisor<0))||((dividend<0)&&(divisor>0));
+		int add=0;
+
+		if(dividend==Integer.MIN_VALUE && divisor==1){
+			return Integer.MIN_VALUE;
+		}
+		else if(dividend==Integer.MIN_VALUE && divisor==-1){
+			return Integer.MAX_VALUE;
+		}
+		else if(divisor == Integer.MIN_VALUE){
+			if(dividend == Integer.MIN_VALUE)
+				return 1;
+			else
+				return 0;
+		}
+		else if(dividend==Integer.MIN_VALUE){
+			add++;
+			dividend = dividend + Math.abs(divisor);
+		}
+
+		dividend = Math.abs(dividend);
+		divisor = Math.abs(divisor);
+
+		int res = (int)Math.exp(Math.log(dividend) - Math.log(divisor));
+
+		if(sign){
+			return -(res+add);
+		}
+		else{
+			return res+add;
+		}
+	}
+}

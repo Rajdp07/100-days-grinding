@@ -51,3 +51,4 @@
 #(Day48)--------Tried and Soved Letter Combination on the phone. [Link to the question](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) 
 #(Day49)--------Solved 4 sum problem on leetcode
 #(Day50)--------Solved Divide 2 Integer
+#(Day51)--------Solved Coprime factors in an array

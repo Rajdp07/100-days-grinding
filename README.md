@@ -52,3 +52,4 @@
 #(Day49)--------Solved 4 sum problem on leetcode
 #(Day50)--------Solved Divide 2 Integer
 #(Day51)--------Solved Coprime factors in an array
+#(Day52)--------Solved Codeforces Wtermelon and Theatre Square Problem

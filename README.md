@@ -56,3 +56,5 @@
 #(Day53)--------Solved Cloning a graph from leetcode
 #(Day54)--------Solved House Robber problem
 #(Day55)--------Solved Array to BST problem
+#(Day56)--------Solved pattern problem
+#(Day57)--------Solved Word Ladder Problem. [Link](https://leetcode.com/problems/word-ladder/)

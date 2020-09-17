@@ -1,0 +1,39 @@
+class Solution {
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        if (wordList == null || wordList.size() == 0 || beginWord.equals(endWord)) { return 0; }
+        Set<String> words = new HashSet<>(wordList);
+        if (!words.contains(endWord)) { return 0; }
+        Set<String> beginSet = new HashSet<>();
+        Set<String> endSet = new HashSet<>();
+        beginSet.add(beginWord);
+        endSet.add(endWord);
+        int len = 1;
+        while (!beginSet.isEmpty() && !endSet.isEmpty()) {
+            if (beginSet.size() > endSet.size()) {
+                Set<String> set = beginSet;
+                beginSet = endSet;
+                endSet = set;
+            }
+            Set<String> tempSet = new HashSet<>();
+            for (String word: beginSet) {
+                char[] arr = word.toCharArray();
+                for (int j = 0; j < word.length(); j++) {
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        char oldC = arr[j];
+                        arr[j] = c;
+                        String target = String.valueOf(arr); // Get transformed word
+                        if (endSet.contains(target)) { return len + 1; }
+                        if (words.contains(target)) { 
+                            tempSet.add(target);
+                            words.remove(target);
+                        }
+                        arr[j] = oldC;
+                    }
+                }
+            }
+            beginSet = tempSet;
+            len++;
+        }
+        return 0;
+    }
+}

@@ -58,3 +58,4 @@
 #(Day55)--------Solved Array to BST problem
 #(Day56)--------Solved pattern problem
 #(Day57)--------Solved Word Ladder Problem. [Link](https://leetcode.com/problems/word-ladder/)
+#(Day58)--------Solved network delay time 
